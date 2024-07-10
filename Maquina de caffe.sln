@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maquina de caffe", "Maquina de caffe\Maquina de caffe.csproj", "{D2D3B1BB-070C-4199-A97C-3AFEE581D0C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{DB5027E7-EB19-4E7B-B384-3BEA3EA0D65E}"
+	ProjectSection(SolutionItems) = preProject
+		maquinaDeCafe.cs = maquinaDeCafe.cs
+		tamañoDelVaso.cs = tamañoDelVaso.cs
+		vasoDeCafe.cs = vasoDeCafe.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testDePruebas", "testDePruebas\testDePruebas.csproj", "{90B33D15-4989-4402-BDCC-95FFEAE6436A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2D3B1BB-070C-4199-A97C-3AFEE581D0C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D3B1BB-070C-4199-A97C-3AFEE581D0C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D3B1BB-070C-4199-A97C-3AFEE581D0C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D3B1BB-070C-4199-A97C-3AFEE581D0C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90B33D15-4989-4402-BDCC-95FFEAE6436A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B33D15-4989-4402-BDCC-95FFEAE6436A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B33D15-4989-4402-BDCC-95FFEAE6436A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B33D15-4989-4402-BDCC-95FFEAE6436A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51B57730-0C39-4148-A870-4489416506F7}
+	EndGlobalSection
+EndGlobal
